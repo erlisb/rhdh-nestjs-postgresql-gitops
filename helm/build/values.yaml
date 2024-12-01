@@ -1,0 +1,18 @@
+app:
+  name: rhdh-nestjs-postgresql-100
+  namespace: rhdh-nestjs-postgresql
+  cluster: apps.sandbox-m2.ll9k.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://gitlab-gitlabapps.sandbox-m2.ll9k.p1.openshiftapps.com/erlisb/rhdh-nestjs-postgresql-100.git
+  org: erlisb
+  name: rhdh-nestjs-postgresql-100
+  host: gitlab-gitlabapps.sandbox-m2.ll9k.p1.openshiftapps.com
+  token: ''
+  webhookSecret: ''
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: rhdh-nestjs-postgresql/100
+  tag: latest
